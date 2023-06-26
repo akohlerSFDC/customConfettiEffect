@@ -5,7 +5,7 @@ import { loadScript } from "lightning/platformResourceLoader";
 import CONFETTI from "@salesforce/resourceUrl/Confetti";
 
 let counter = 0;
-let colors = ['#bb0000', '#ffffff'];
+const colors = ['#bb0000', '#ffffff'];
  
 export default class confettiLWC extends LightningElement {
 				
@@ -41,7 +41,7 @@ export default class confettiLWC extends LightningElement {
 		} else if (error) {
 			console.error('ERROR => ', JSON.stringify(error));
 		}
-	}
+	}git add 
 	
 	checkStageOnPageLoad() {
 		if(this.stageName === 'Proposal/Price Quote' || 
